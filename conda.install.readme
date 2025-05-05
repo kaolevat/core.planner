@@ -1,0 +1,16 @@
+conda create -n core_planner_env
+conda activate core_planner_env
+
+## Binaries
+conda install conda-forge::screen
+conda install ffmpeg
+
+## Python
+conda install python=3.9.21
+conda install termcolor
+conda install pytz
+conda install numpy
+conda install opencv
+conda install moviepy
+conda install matplotlib
+###
