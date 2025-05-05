@@ -1,0 +1,57 @@
+$NEACRP BENCHMARK C1                                    
+$   360 DEGREE
+$ DRIVER TAKEN INTO ACCOUNT APPROXIMATELY
+$  ICON IWQS IREWIN TOTIM       DTREST 
+    -1    22    1    18000.0     3.0
+$  ISTART
+    1
+PWR PROJECT BENCHMARK
+$  IBKTYP
+    2
+CONTROL OF CALCULATION
+$ ITIM IOINP IH1  IH2  IH3  IH4  IH5
+   1    1    0    0    0    0    0   
+DIMENSIONS OF ARRAYS
+$ISYM NJMAX NIMAX NCAS NZ NOBOU NOSYMS NOMAS NOBT
+  360   17   17   257   18   68    0    3   2
+$ ndiv
+$   1 
+$NEUTRON ENERGY GROUPS
+$   NG NOMAXDSC NOMAXUSC NGUPSC
+$     2      1       1      0   
+CONTROL OF ITERATION
+$  EPSBES    EPSK       EPSF              
+   .000001 .0000001   .000002                                          
+$ EKEFF
+  1.0      
+$ ITOUMA ITINMA ITSCH
+   500     3      5
+$ IOPT
+    0   
+IMPROVED LEAKAGE    
+TOTAL POWER
+$   TOTPOW [MW]     
+   4500 
+$IBOR INDXE INDSM  KRIPAR ITKRIM (#flux-TH iterations)   
+  1    0     0       1    100 
+$   EPSKRI   EPSTF     EPSRH     THETA (static N-TH criterias)
+  .000002   .00001      .00021    0.5
+$   BW      EKEFF0   CBLIM
+  .00004212  1.0     -0.1  
+$ ICSTYP
+    1                 
+$ NOFUEL 
+   3
+$ IBURN
+    0 
+$ FUEL ASSEMBLY TYPES
+   18*1 
+   18*2
+   18*3
+MATERIAL MAP
+   -8    8
+ -4 -6 -7 -7 -8 -8 -8 -8 -8 -8 -8 -8 -8 -7 -7 -6 -4                             
+  4  6  7  7  8  8  8  8  8  8  8  8  8  7  7  6  4      
+$ NSHUFF 
+    0
+$IMAT(I,J)

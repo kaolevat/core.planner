@@ -1,0 +1,69 @@
+GEOMETRICAL PARAMETERS
+$ AX
+       21.500   21.500    21.500    21.500    21.500    21.500
+       21.500   21.500    21.500    21.500    21.500    21.500
+       21.500   21.500    21.500    21.500    21.500 
+$ AY
+       21.500   21.500    21.500    21.500    21.500    21.500
+       21.500   21.500    21.500    21.500    21.500    21.500
+       21.500   21.500    21.500    21.500    21.500 
+$ AZ
+       21.000   21.000    21.000    20.000    20.000    20.000   
+       20.000   20.000    20.000    20.000    20.000    20.000
+       20.000   20.000    20.000    21.000    21.000    21.000 
+$ IZBOT IZTOP      
+    1   18
+CONTROL RODS
+$ NOBANK NOW
+    0    0
+ASSEMBLY DISCONTINUITY FACTORS
+CURRENT COUPLING RELAXATION 
+$$ THETA_CN
+     0.7  
+BOUNDARY RELATIONS
+   0.0   0.0   0.0
+   1.0   0.0   1.0
+$ INDC
+   -1 
+$ IREFC
+  68*1
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+$ IREFU
+  257*1 
+$ IREFO
+  257*1
+$ FEEDBACK ADJUSTING COEFFICIENTS
+   0.0  0.0  0.0  0.0
+$NHYCHA
+    0
+$ 
+END OF DATA FOR STATIONARY CALCULATION 
+$   
+$HEAVY METAL MASS
+$$  BRNINT                                                                       
+$    100. 
+$$  BNTIME                                                                       
+$     0. 
+$$ UOMASS  
+$    389.10505
+$$ RPTIME    TOTPOW     CTEMP    CFLOW  MOVGR
+$  50.     359.1180772  1600.0   100.00  0
+$  100.    359.1180772  1600.0   100.00  0
+$-10
+FINE
